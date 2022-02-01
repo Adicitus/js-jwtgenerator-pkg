@@ -1,0 +1,28 @@
+{
+  "name": "simplejwt",
+  "version": "1.0.0",
+  "description": "Utility to easily generate/verify JWT using public key cryptography.",
+  "main": "JWTGenerator.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adicitus/js-simplejwt-mod.git"
+  },
+  "keywords": [
+    "jwt",
+    "JsonWebToken"
+  ],
+  "author": "joakim.olsson@adicitus.cloud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adicitus/js-simplejwt-mod/issues"
+  },
+  "homepage": "https://github.com/Adicitus/js-simplejwt-mod#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "luxon": "^2.3.0",
+    "uuid": "^8.3.2"
+  }
+}
