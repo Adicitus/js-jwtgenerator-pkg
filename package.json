@@ -8,18 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Adicitus/js-simplejwt-mod.git"
+    "url": "git+https://github.com/Adicitus/js-simplejwt-pkg.git"
   },
   "keywords": [
     "jwt",
     "JsonWebToken"
   ],
-  "author": "joakim.olsson@adicitus.cloud",
+  "author": "Joakim Olsson <joakim.olsson@adicitus.cloud>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Adicitus/js-simplejwt-mod/issues"
+    "url": "https://github.com/Adicitus/js-simplejwt-pkg/issues"
   },
-  "homepage": "https://github.com/Adicitus/js-simplejwt-mod#readme",
+  "homepage": "https://github.com/Adicitus/js-simplejwt-pkg#readme",
   "dependencies": {
     "jsonwebtoken": "^8.5.1",
     "luxon": "^2.3.0",
