@@ -4,7 +4,7 @@
   "description": "Utility to easily generate/verify JWT using public key cryptography.",
   "main": "JWTGenerator.js",
   "scripts": {
-    "test": ""
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
