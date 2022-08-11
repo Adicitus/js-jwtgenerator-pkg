@@ -208,11 +208,11 @@ class JWTGenerator {
             }
 
             if (!tokenRecord) {
-                return { success: false, status: 'noRecordError', reason: 'No record found for the token.' }
+                return { success: false, status: 'noRecordError', reason: `No record found for the token (ID: '${header.kid}').` }
             }
 
             if (!(tokenRecord.key && tokenRecord.issuer && tokenRecord.subject)) {
-                return { success: false, status: 'invalidRecordError', reason: 'Token record is incomplete.' }
+                return { success: false, status: 'invalidRecordError', reason: `Token record is incomplete (ID: '${header.kid}').` }
             }
 
             jwt.verify(token, tokenRecord.key, {issuer: tokenRecord.issuer, subject: tokenRecord.subject})

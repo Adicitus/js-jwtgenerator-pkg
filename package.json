@@ -1,6 +1,6 @@
 {
   "name": "@adicitus/jwtgenerator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility to easily generate/verify JWT using public key cryptography.",
   "main": "JWTGenerator.js",
   "scripts": {
