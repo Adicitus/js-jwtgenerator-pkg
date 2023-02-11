@@ -14,13 +14,13 @@ class JWTGenerator {
     /**
      * Key length to use when generating new key pairs.
      */
-    keyLength = 1024
+    keyLength = 2048
     /**
      * Signing algorithm used when generating the tokens.
      * 
      * For a list of supported algorithms see: [https://github.com/auth0/node-jws#jwsalgorithms](https://github.com/auth0/node-jws#jwsalgorithms).
      */
-    algorithm = 'ES256'
+    algorithm = 'RS256'
     /**
      * Luxon Duration object representing the default lifetime of tokens generated.
      */
@@ -95,7 +95,7 @@ class JWTGenerator {
      * Regenerates the DSA key pair used to generate tokens.
      */
     generateKeys() {
-        let keyPair = Crypto.generateKeyPairSync('dsa', { modulusLength: this.keyLength })
+        let keyPair = Crypto.generateKeyPairSync('rsa', { modulusLength: this.keyLength })
         this.publicKey = keyPair.publicKey.export({ type: 'spki', format: 'pem' })
         this.privateKey = keyPair.privateKey.export({ type: 'pkcs8', format:'pem' })
     }

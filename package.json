@@ -1,6 +1,6 @@
 {
   "name": "@adicitus/jwtgenerator",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Utility to easily generate/verify JWT using public key cryptography.",
   "main": "JWTGenerator.js",
   "scripts": {
@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/Adicitus/js-jwtgenerator-pkg#readme",
   "dependencies": {
-    "jsonwebtoken": "^8.5.1",
-    "luxon": "^2.3.0",
+    "jsonwebtoken": "^9.0.0",
+    "luxon": "^3.2.1",
     "uuid": "^8.3.2"
   }
 }
