@@ -21,11 +21,11 @@
   },
   "homepage": "https://github.com/Adicitus/js-jwtgenerator-pkg#readme",
   "dependencies": {
-    "jsonwebtoken": "^9.0.0",
-    "luxon": "^3.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "luxon": "^3.6.1",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "mocha": "^10.2.0"
+    "mocha": "^11.6.0"
   }
 }
